@@ -29,31 +29,6 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <Card className="text-center bg-gradient-card border-gold/20">
-                <CardContent className="p-6">
-                  <Users className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h4 className="text-2xl font-bold text-foreground mb-2">500+</h4>
-                  <p className="text-muted-foreground">Restaurantes atendidos</p>
-                </CardContent>
-              </Card>
-              
-              <Card className="text-center bg-gradient-card border-gold/20">
-                <CardContent className="p-6">
-                  <Target className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h4 className="text-2xl font-bold text-foreground mb-2">95%</h4>
-                  <p className="text-muted-foreground">Satisfacción del cliente</p>
-                </CardContent>
-              </Card>
-              
-              <Card className="text-center bg-gradient-card border-gold/20">
-                <CardContent className="p-6">
-                  <Award className="w-12 h-12 text-primary mx-auto mb-4" />
-                  <h4 className="text-2xl font-bold text-foreground mb-2">5+</h4>
-                  <p className="text-muted-foreground">Años de experiencia</p>
-                </CardContent>
-              </Card>
-            </div>
           </div>
 
           {/* Image/Logo Section */}
