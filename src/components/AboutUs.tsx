@@ -35,8 +35,8 @@ const AboutUs = () => {
           <div className="flex justify-center">
             <Card className="p-12 bg-gradient-card border-2 border-gold/20 shadow-elegant">
               <div className="text-center">
-                <div className="w-32 h-32 mx-auto mb-6 bg-gradient-hero rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-4xl">LB</span>
+                <div className="w-32 h-32 mx-auto mb-6 flex items-center justify-center">
+                  <img src="/lovable-uploads/3133ca74-e365-4556-b30a-20afa58d1586.png" alt="Le Botelier Logo" className="w-full h-full object-contain" />
                 </div>
                 <h3 className="text-2xl font-bold text-foreground mb-4">Le Botelier</h3>
                 <p className="text-lg text-muted-foreground italic">
