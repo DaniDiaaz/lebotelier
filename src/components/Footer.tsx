@@ -28,7 +28,12 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=34674565394&text=Quiero%20saber%20m%C3%A1s%20sobre%20el%20plan%20Básico', '_blank')}
+                  onClick={() => {
+                    const element = document.getElementById('servicios');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Plan Básico
@@ -36,7 +41,12 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=34674565394&text=Quiero%20saber%20m%C3%A1s%20sobre%20el%20plan%20Entrada', '_blank')}
+                  onClick={() => {
+                    const element = document.getElementById('servicios');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Plan Entrada
@@ -44,7 +54,12 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=34674565394&text=Quiero%20saber%20m%C3%A1s%20sobre%20el%20plan%20Core', '_blank')}
+                  onClick={() => {
+                    const element = document.getElementById('servicios');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Plan Core
@@ -52,7 +67,12 @@ const Footer = () => {
               </li>
               <li>
                 <button 
-                  onClick={() => window.open('https://api.whatsapp.com/send?phone=34674565394&text=Quiero%20saber%20m%C3%A1s%20sobre%20el%20plan%20Premium', '_blank')}
+                  onClick={() => {
+                    const element = document.getElementById('servicios');
+                    if (element) {
+                      element.scrollIntoView({ behavior: 'smooth' });
+                    }
+                  }}
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   Plan Premium
