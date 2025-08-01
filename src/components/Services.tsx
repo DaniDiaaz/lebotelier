@@ -127,7 +127,6 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full mt-6 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
-                  onClick={() => window.open(service.url, '_blank')}
                 >
                   Ver más
                 </Button>
