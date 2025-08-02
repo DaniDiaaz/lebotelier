@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script>
+window.addEventListener('mouseover', initLandbot, { once: true });
+window.addEventListener('touchstart', initLandbot, { once: true });
+var myLandbot;
+function initLandbot() {
+  if (!myLandbot) {
+    var s = document.createElement('script');
+    s.type = "module"
+    s.async = true;
+    s.addEventListener('load', function() {
+      myLandbot = new Landbot.Popup({
+        configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-3072176-SRIDMAX2G6XK5IL4/index.json',
+      });
+    });
+    s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.mjs';
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+  }
+}
+</script>
     <meta charset="UTF-8" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
