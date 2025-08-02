@@ -13,7 +13,7 @@ const Services = () => {
       bgColor: "bg-green-50",
       borderColor: "border-green-200",
       description: "Menú digital moderno que transforma la experiencia de tus clientes",
-      url: "https://lovable.dev/projects/53347075-1c3c-4c20-92e2-836260a819ba",
+      url: "https://serviciobasico.lebotelier.es/",
       features: [
         "Menú digital QR interactivo",
         "Actualización en tiempo real",
@@ -30,7 +30,7 @@ const Services = () => {
       bgColor: "bg-yellow-50",
       borderColor: "border-yellow-200",
       description: "Automatización de reservas y atención al cliente 24/7",
-      url: "https://lovable.dev/projects/2671fa33-27fd-46b9-81c0-74e1fd2851f6",
+      url: "https://servicioentrada.lebotelier.es/",
       features: [
         "Todo lo del plan Básico",
         "Chatbot de reservas automático",
@@ -48,7 +48,7 @@ const Services = () => {
       bgColor: "bg-blue-50",
       borderColor: "border-blue-200",
       description: "Automatización completa con inteligencia artificial avanzada",
-      url: "https://lovable.dev/projects/965716d0-da4e-4ecb-a280-3fc8a3a89489",
+      url: "https://serviciocore.lebotelier.es/",
       features: [
         "Todo lo del plan Entrada",
         "IA avanzada personalizada",
@@ -67,7 +67,7 @@ const Services = () => {
       bgColor: "bg-red-50",
       borderColor: "border-red-200",
       description: "La solución más completa para restaurantes modernos",
-      url: "https://lovable.dev/projects/1466ed67-23a6-401b-903d-73d6501d92ed",
+      url: "https://serviciopremium.lebotelier.es/",
       features: [
         "Todo lo del plan Core",
         "CRM completo integrado",
@@ -127,6 +127,7 @@ const Services = () => {
                 <Button 
                   variant="outline" 
                   className="w-full mt-6 hover:bg-primary hover:text-primary-foreground transition-all duration-300"
+                  onClick={() => window.open(service.url, '_blank')}
                 >
                   Ver más
                 </Button>
